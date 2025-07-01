@@ -2,6 +2,7 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 
 def pytest_configure(config):
     config.addinivalue_line("markers", "smoke: mark test as smoke test")
@@ -11,10 +12,7 @@ def pytest_configure(config):
 def browser():
     options = Options()
     options.add_argument("--start-maximized")
-    
-    # Especifica la ruta exacta a chromedriver
-    service = Service(executable_path=r"C:\Windows\chromedriver.exe")
+    service = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service, options=options)
-    
     yield driver
     driver.quit()
