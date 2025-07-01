@@ -12,7 +12,7 @@ def pytest_configure(config):
 def browser():
     options = Options()
     options.add_argument("--start-maximized")
-    service = Service(ChromeDriverManager().install())
+    service = Service(executable_path=r"C:\Windows\chromedriver.exe")
     driver = webdriver.Chrome(service=service, options=options)
     yield driver
     driver.quit()
