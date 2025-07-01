@@ -1,40 +1,35 @@
-#  QA Automation Project  
-**Automatización de pruebas para E-commerce (Web + API)**  
+# 🚀 QA Automation Project - Selenium con Python
 
-##  Tecnologías  
-- **UI Testing**: Selenium WebDriver + Python + pytest  
-- **API Testing**: Postman + Newman  
-- **CI/CD**: GitHub Actions  
+Framework de automatización de pruebas para web usando Selenium WebDriver y Python. Incluye ejemplos de pruebas de login (flujos positivos/negativos) en [DemoQA](https://demoqa.com/login).
 
-##  Estructura del Proyecto  
-```bash
-/qa-automation-project  
-├── web-tests/       # Tests de interfaz web  
-├── api-tests/       # Tests de API  
-├── docs/            # Documentación  
-└── .github/         # Automatización con GitHub Actions  
-```
+## 📌 ¿Qué incluye este proyecto?
 
-##  Como Ejecutar  
-### Tests UI (Selenium):  
-```bash
-pip install -r requirements.txt  
-pytest web-tests/tests/test_login.py --browser=chrome  
-```
+✅ **Pruebas automatizadas** para login funcional  
+✅ **Page Object Model (POM)** - Diseño mantenible  
+✅ **Configuración lista para CI/CD**  
+✅ **Reportes automáticos** de resultados  
 
-### Tests API (Postman):  
-```bash
-newman run api-tests/collections/ecommerce_api.postman_collection.json  
-```
+## 🛠 Tecnologías utilizadas
 
-##  Reportes  
-- **Allure Reports** para tests UI (ver `/allure-report` después de ejecutar).  
-- **HTML Reports** para Postman.  
+| Herramienta       | Uso                          |
+|-------------------|------------------------------|
+| Python 3.10+      | Lenguaje base                |
+| Selenium WebDriver| Automatización de navegador  |
+| Pytest            | Framework de testing         |
+| WebDriver Manager | Gestión automática de drivers|
 
-##  Proximos Pasos  
-- [ ] Añadir pruebas móviles con Appium  
-- [ ] Integrar con Jenkins  
+## 🚀 Cómo empezar
 
----
+### Requisitos previos
+- Chrome 114+ instalado
+- Python 3.10+
+- Git (opcional)
 
- **Creado por Ignacio Martínez** | [LinkedIn](www.linkedin.com/in/ignacio-martinez-qa) | ✉️ naching13@gmail.com  
+### Estructura del proyecto: 
+  QA-AUTOMATION-PROJECT/  
+    ├── web_tests/  
+    │   ├── pages/       # Modelos de páginas (POM)  
+    │   ├── tests/       # Casos de prueba  
+    │   └── conftest.py  # Configuración global  
+    ├── requirements.txt # Dependencias  
+    └── README.md        # Esta guía  
