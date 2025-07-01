@@ -1,0 +1,9 @@
+selenium==4.9.0
+pytest==7.4.0
+pytest-html==3.2.0
+allure-pytest==2.13.2
+
+Instalar Python 3.10+ (marcar "Add to PATH")
+Doble clic en ejecutar_pruebas.bat
+Si falla, ejecutar:
+   pip install -r requirements.txt
