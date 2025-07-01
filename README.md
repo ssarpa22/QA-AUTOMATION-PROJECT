@@ -1,15 +1,15 @@
-# 🚀 QA Automation Project - Selenium con Python
+#  QA Automation Project - Selenium con Python
 
 Framework de automatización de pruebas para web usando Selenium WebDriver y Python. Incluye ejemplos de pruebas de login (flujos positivos/negativos) en [DemoQA](https://demoqa.com/login).
 
-## 📌 ¿Qué incluye este proyecto?
+##  ¿Qué incluye este proyecto?
 
-✅ **Pruebas automatizadas** para login funcional  
-✅ **Page Object Model (POM)** - Diseño mantenible  
-✅ **Configuración lista para CI/CD**  
-✅ **Reportes automáticos** de resultados  
+ **Pruebas automatizadas** para login funcional  
+ **Page Object Model (POM)** - Diseño mantenible  
+ **Configuración lista para CI/CD**  
+ **Reportes automáticos** de resultados  
 
-## 🛠 Tecnologías utilizadas
+##  Tecnologías utilizadas
 
 | Herramienta       | Uso                          |
 |-------------------|------------------------------|
@@ -18,7 +18,7 @@ Framework de automatización de pruebas para web usando Selenium WebDriver y Pyt
 | Pytest            | Framework de testing         |
 | WebDriver Manager | Gestión automática de drivers|
 
-## 🚀 Cómo empezar
+##  Cómo empezar
 
 ### Requisitos previos
 - Chrome 114+ instalado
