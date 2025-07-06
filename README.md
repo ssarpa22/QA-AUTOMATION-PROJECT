@@ -22,7 +22,7 @@ Framework de automatización de pruebas para web usando Selenium WebDriver y Pyt
 
 ### Requisitos previos
 - Chrome 114+ instalado
-- Chromedriver.exe instalado en C:/Windows #donde vos quieras en realidad, tenés que cambiarle el directorio al ejecutable tho.
+- chromedriver.exe instalado en C:/Windows # donde vos quieras en realidad (puede ser en la misma carpeta base), tenés que cambiarle el directorio al confest.py.
 - Python 3.10+
 - Git (opcional)
 
